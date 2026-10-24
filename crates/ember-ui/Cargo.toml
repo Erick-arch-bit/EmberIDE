@@ -3,7 +3,11 @@ name = "ember-ui"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-path = "src/lib.rs"
-
 [dependencies]
+eframe = { workspace = true }
+egui = { workspace = true }
+ember-core = { path = "../ember-core" }
+ember-config = { path = "../ember-config" }
+ember-syntax = { path = "../ember-syntax" }
+anyhow = { workspace = true }
+log = { workspace = true }

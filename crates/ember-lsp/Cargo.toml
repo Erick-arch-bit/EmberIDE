@@ -3,7 +3,8 @@ name = "ember-lsp"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-path = "src/lib.rs"
-
 [dependencies]
+ember-core = { path = "../ember-core" }
+anyhow = { workspace = true }
+log = { workspace = true }
+tokio = { workspace = true }

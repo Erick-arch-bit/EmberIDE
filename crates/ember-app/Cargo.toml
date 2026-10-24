@@ -4,5 +4,18 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "ember-app"
+name = "ember"
 path = "src/main.rs"
+
+[dependencies]
+ember-core = { path = "../ember-core" }
+ember-ui = { path = "../ember-ui" }
+ember-config = { path = "../ember-config" }
+ember-syntax = { path = "../ember-syntax" }
+ember-lsp = { path = "../ember-lsp" }
+ember-plugins = { path = "../ember-plugins" }
+eframe = { workspace = true }
+egui = { workspace = true }
+anyhow = { workspace = true }
+env_logger = { workspace = true }
+log = { workspace = true }
