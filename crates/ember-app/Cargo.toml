@@ -1,0 +1,8 @@
+[package]
+name = "ember-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ember-app"
+path = "src/main.rs"
