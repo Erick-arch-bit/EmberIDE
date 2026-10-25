@@ -19,3 +19,4 @@ egui = { workspace = true }
 anyhow = { workspace = true }
 env_logger = { workspace = true }
 log = { workspace = true }
+rfd = "0.9"

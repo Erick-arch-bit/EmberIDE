@@ -1,1 +1,29 @@
+# Target directory for compiled artifacts
 target/
+
+# Visual Studio
+*.swp
+*.swo
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+EOF
+
+# Rust specific
+/target
+**/*.rs.bak
+
+# Coverage data
+/coverage
+
+# Binary executables
+/ember-ide/target
+
+# User specific
+.emberide
+
+# Temporary files
+*.tmp
